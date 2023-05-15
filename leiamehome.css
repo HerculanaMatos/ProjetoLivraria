@@ -1,0 +1,115 @@
+body h1,.nome{
+    background: white;
+	background-size: 150px ;
+	text-align:center;
+	top: 50px;
+    font-weight: bold;
+	font-size: 32px;
+	text-decoration: none;
+}
+.ler{
+	background-image: url(leiame.jpeg);
+	width: 50px;
+	padding: 4px;;
+}
+.menu{
+    
+	position: absolute;
+	width: 1200px;
+   	margin: 0 auto;
+
+}
+
+nav {
+	position: absolute;
+	top: auto;
+	right: 25px;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+	
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+.principal{
+	background: #CCCCCC;
+	padding: 10px;
+	margin-top: 50px;
+}
+
+.titulo-principal {
+	padding-left: 20px;
+    text-align: center;
+	font-size: 22px;
+}
+
+.sobre {/*colocar classe no paragrafo pra estilizar*/
+	text-align:center;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	position: relative;
+	top: -100px;
+	
+	margin: 0 0 0 55px;
+	
+}
+
+.video {
+	width: 560px;
+	margin: 2em auto;
+}
+.livros{
+	background-color: rgb(199, 196, 205);
+	overflow: hidden;
+}
+.livros >.secoes-livros{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    transition: all 400ms ease;
+
+}
+.itens h4{
+	font-size: 22px;
+}
+
+.livros>.secoes-livros>.itens{
+    flex: 0 0 auto;
+    width: 100%;
+}
+.livros > input:nth-child(1):checked ~ .secoes-livros{
+    transform: translateX(0%);
+}
+.livros > input:nth-child(2):checked ~ .secoes-livros{
+    transform: translateX(-100%);
+}
+.livros > input:nth-child(3):checked ~ .secoes-livros{
+    transform: translateX(-200%);
+}
+/*classe mae> classe filhas*/
+.livros>.secoes-livros>.itens>.descricao{
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+}
+footer, #img{
+	text-align: center;
+	font-size: 22px;
+	height: 20px;
+	background-image: rgb(87, 82, 108) url(cabecalho.jpg);
+	
+}
+

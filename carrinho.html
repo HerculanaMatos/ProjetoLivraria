@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Carrinho - Livraria-Leia-me</title>
+
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="leiame.css">
+
+</head>
+<body>
+    
+    <header>
+        <h1 class=" nome">Livraria <img class="ler" src="leiame.jpeg"> Leia-me</h1>
+            
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li><a href="leiame.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="carrinho.html">Carrinho</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header> 
+    <main>
+        <section>
+			<form>
+				<label for="nomesobrenome">Nome e sobrenome</label>
+				<input type="text" id="nomesobrenome" class="input-padrao" required>
+
+				<label for="email">Email</label>
+				<input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+				<label for="telefone">Telefone</label>
+				<input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+				<label for="Endereco">Endereco</label>
+				<input type="end" id="Endereco" class="input-padrao" required>
+
+				<fieldset>
+					<legend>Formas de pagamento</legend>
+					<label for="Pix"><input type="radio" name="contato" value="pix" id="radio-pix"> Pix</label>
+					
+					<label for="cartao"><input type="radio" name="contato" value="cartao" id="radio-cartao"> Cartao</label>
+					
+					<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> WhatsApp</label>
+				</fieldset>
+
+        </section>
+    </main>
+    
+    <footer>
+        <img id="rodape"src="leiame.jpg">
+        <p class="copyright">&copy; Copyright Livrarias Leia-me - 2023</p>
+    </footer>
+</body>
+</html>
