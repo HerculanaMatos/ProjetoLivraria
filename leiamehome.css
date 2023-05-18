@@ -1,29 +1,35 @@
-body h1,.nome{
-    background: white;
+body{
+
+    background: rgb(89, 104, 111);
+}
+h1,.nome{
 	background-size: 150px ;
 	text-align:center;
-	top: 50px;
+	padding: 10px;
     font-weight: bold;
 	font-size: 32px;
 	text-decoration: none;
+	color: aliceblue;
 }
 .ler{
 	background-image: url(leiame.jpeg);
 	width: 50px;
-	padding: 4px;;
+	padding: 5px;;
 }
-.menu{
-    
-	position: absolute;
-	width: 1200px;
-   	margin: 0 auto;
+.menu {
+ 	position: relative;
+	width: 940px;
+   	margin-left:0 0 0 50px;
+	color: aliceblue;
 
 }
-
 nav {
+	
+    background: rgb(89, 104, 111);
 	position: absolute;
 	top: auto;
-	right: 25px;
+	right: -6em;
+	width: auto;
 }
 
 nav li {
@@ -34,9 +40,9 @@ nav li {
 
 nav a {
 	text-transform: uppercase;
-	color: #000000;
+	color: #f7f2f2;
 	font-weight: bold;
-	font-size: 22px;
+	font-size: 20px;
 	text-decoration: none;
 }
 
@@ -62,6 +68,7 @@ nav a:hover {
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	position: relative;
 	top: -100px;
+	left: 25px;
 	
 	margin: 0 0 0 55px;
 	
